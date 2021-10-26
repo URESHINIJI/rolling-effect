@@ -1,0 +1,27 @@
+body,
+html {
+  font-family: "Courier New", Courier, monospace;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.img1 {
+  background-image: url("images/seeds.jpg");
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+}
+.img1 span.caption {
+  padding: 18px;
+  color: black;
+  background-color: green;
+  top: 50%;
+  position: absolute;
+  text-align: center;
+}
+div.container {
+  columns: ;
+}
