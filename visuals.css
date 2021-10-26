@@ -5,23 +5,45 @@ html {
   margin: 0 auto;
 }
 
-.img1 {
-  background-image: url("images/seeds.jpg");
+div .head-title {
+  padding: 20px;
+  opacity: 50%;
+  background-color: brown;
+  color: White;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p.introduction {
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.img1,
+.img2 {
   position: relative;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.img1 {
+  background-image: url("images/pexels-ioana-motoc-9899552.jpg");
   min-height: 100%;
 }
-.img1 span.caption {
-  padding: 18px;
-  color: black;
-  background-color: green;
-  top: 50%;
-  position: absolute;
-  text-align: center;
-}
-div.container {
-  columns: ;
+
+.img2 {
+  background-position: relative;
+  background-image: url("images/papaya.jpg");
+  height: 1000px;
 }
