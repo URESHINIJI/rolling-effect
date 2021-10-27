@@ -48,8 +48,15 @@ p.subhead::first-letter {
   min-height: 100%;
 }
 
+.img2-container {
+  background-color;
+  background-position: cover;
+  opacity: 0, 8;
+}
 .img2 {
   background-position: relative;
-  background-image: url("images/papaya.jpg");
+  background-image: url("images/seeds.jpg");
   height: 1000px;
+  opacity:0.8em;
 }
+color: #ffbe26;
