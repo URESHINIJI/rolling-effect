@@ -28,10 +28,10 @@ h2 {
 p.introduction {
   padding: 20px 50px;
   padding-top: 10px;
-
   text-align: center;
+  line-height: 1.5em;
 }
-p.subhead::first-letter {
+p.subhead:first-letter {
   initial-letter: 4;
 }
 
@@ -55,8 +55,10 @@ p.subhead::first-letter {
 }
 .img2 {
   background-position: relative;
-  background-image: url("images/seeds.jpg");
+  background-color:grey transparent;
+
+  background-image: url("images/papaya.jpg");
   height: 1000px;
-  opacity:0.8em;
+  opacity:0.6;
 }
 color: #ffbe26;
