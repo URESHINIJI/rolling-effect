@@ -7,9 +7,8 @@ html {
 
 div .head-title {
   padding: 20px;
-  opacity: 50%;
-  background-color: brown;
-  color: White;
+  opacity: 25%;
+  color:#000000;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -55,7 +54,7 @@ p.subhead:first-letter {
 }
 .img2 {
   background-position: relative;
-  background-color:grey transparent;
+  background-color:grey trans;
 
   background-image: url("images/papaya.jpg");
   height: 1000px;
