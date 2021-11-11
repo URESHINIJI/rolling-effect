@@ -6,16 +6,17 @@ html {
 }
 
 div .head-title {
-  padding: 20px;
-  opacity: 25%;
-  color:#000000;
+  opacity: 10%;
+  color: black;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   font-family: Arial, Helvetica, sans-serif;
   text-transform: capitalize;
-  font-size: 40px;
+  font-size: 50px;
+}
+span .head-title {
 }
 
 h2 {
@@ -44,20 +45,20 @@ p.subhead:first-letter {
 }
 .img1 {
   background-image: url("images/pexels-ioana-motoc-9899552.jpg");
+  background-color: rgba(255, 255, 255, 0.9);
   min-height: 100%;
 }
 
 .img2-container {
-  background-color;
   background-position: cover;
   opacity: 0, 8;
 }
 .img2 {
   background-position: relative;
-  background-color:grey trans;
+  background-color: grey trans;
 
   background-image: url("images/papaya.jpg");
   height: 1000px;
-  opacity:0.6;
+  opacity: 0.6;
 }
 color: #ffbe26;
