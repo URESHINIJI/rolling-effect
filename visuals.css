@@ -16,8 +16,6 @@ div .head-title {
   text-transform: capitalize;
   font-size: 50px;
 }
-span .head-title {
-}
 
 h2 {
   text-align: center;
@@ -26,7 +24,6 @@ h2 {
 }
 
 p.introduction {
-  padding: 20px 50px;
   padding-top: 10px;
   text-align: center;
   line-height: 1.5em;
@@ -37,29 +34,19 @@ p.subhead:first-letter {
 
 .img1,
 .img2 {
-  position: relative;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
-.img1 {
+div .img1 {
   background-image: url("images/pexels-ioana-motoc-9899552.jpg");
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 1;
   min-height: 100%;
+  background-attachment: fixed;
 }
 
-.img2-container {
-  background-position: cover;
-  opacity: 0, 8;
-}
-.img2 {
-  background-position: relative;
-  background-color: grey trans;
-
+div .img2 {
   background-image: url("images/papaya.jpg");
-  height: 1000px;
-  opacity: 0.6;
+  min-height: 80%;
 }
-color: #ffbe26;
