@@ -1,52 +1,15 @@
-body,
-html {
-  font-family: "Courier New", Courier, monospace;
+body {
   height: 100%;
-  margin: 0 auto;
+  margin: 0;
 }
 
-div .head-title {
-  opacity: 15%;
-  color: black;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  font-family: Arial, Helvetica, sans-serif;
-  text-transform: capitalize;
-  font-size: 50px;
-}
-
-h2 {
-  text-align: center;
-  margin: 0 auto;
-  margin: 30px;
-}
-
-p.introduction {
-  padding-top: 10px;
-  text-align: center;
-  line-height: 1.5em;
-}
-p.subhead:first-letter {
-  initial-letter: 4;
-}
-
-.img1,
-.img2 {
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-}
-div .img1 {
-  background-image: url("images/pexels-ioana-motoc-9899552.jpg");
-  min-height: 100%;
-  background-attachment: fixed;
-}
-
-div .img2 {
-  background-image: url("images/papaya.jpg");
+.img1 {
+  background-image: url("images/Frau-Kerze.jpg");
   min-height: 80%;
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0, 8;
 }
